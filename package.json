@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "figlet": "^1.5.2"
-  }
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misi9/Node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misi9/Node-js/issues"
+  },
+  "homepage": "https://github.com/misi9/Node-js#readme",
+  "description": ""
 }
