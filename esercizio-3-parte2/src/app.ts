@@ -18,12 +18,12 @@ app.get('/planets', async(request, response)=>{
 
 app.get('/planets/:id', async(request, response)=>{
     const id = request.params
-    const planets = await prisma.planet.findUnique({
+    const planet = await prisma.planet.findUnique({
         where: {
             id: +id 
         }
     })
-    response.json(planets) 
+    response.json(planet) 
  })
 
 app.post('/planets',validate({body: planetSchema}), async (request, response) => {
